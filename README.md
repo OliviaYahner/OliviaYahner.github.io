@@ -6,6 +6,6 @@
 </ul>
 <h2>ENG-391C</h2>
 <ul>
-  <li><a href="exercises/exercise1.html">Exercise 1</a></li>
-  <li><a href="exercises/exercise2.html">Exercise 2</a></li>
+  <li><a href="exercises/exercise1.html">Exercise 1 - About Olivia Yahner</a></li>
+  <li><a href="exercises/exercise2.html">Exercise 2 - Olivia Yahner Resume</a></li>
 </ul>
