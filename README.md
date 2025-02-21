@@ -5,4 +5,5 @@
   <li><a href="exercises/exercise2.html">Exercise 2 - Olivia Yahner Resume</a></li>
   <li><a href="exercises/">Exercise 3 - Exercises index.html</a></li>
   <li><a href="exercises/exercise4.html">Exercise 4 - Images</a></li>
+  <li><a href="exercises/checkin1.html">CheckIn 1 - HTML</a></li>
 </ul>
