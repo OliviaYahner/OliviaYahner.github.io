@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5dc; /* Light beige for a natural tone */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styling */
+h1, h2, h3 {
+    color: #5a3d1e; /* Earthy brown */
+    font-family: 'Georgia', serif;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #7a5230; /* Dark brown for contrast */
+    padding: 15px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #f5f5dc;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #ffcc00; /* Gold accent */
+}
+
+/* Section Styling */
+section {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+
+/* Image Styling */
+figure {
+    margin: 20px 0;
+}
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+figcaption {
+    font-style: italic;
+    color: #5a3d1e;
+}
+
+/* Lists */
+ul, ol {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/* Footer */
+footer {
+    background-color: #7a5230;
+    color: #f5f5dc;
+    padding: 10px 0;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
