@@ -40,33 +40,6 @@ p {
   padding-right: 1.3rem;
 }
 
-a {
-  color: #053555;
-  text-decoration: none;
-}
-
-a:link {
-  color: blueviolet;
-  text-decoration: underline;
-}
-
-a:visited {
-  color: orange;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: green;
-  text-decoration: none;
-}
-
-a:active {
-  color: red;
-  text-decoration: none;
-}
-
-img {
-  border: 2px #8C2431 solid;
-  float: right;
-  margin: 0.65rem;
+li {
+  font-family: "Courier New", Courier, monospace;
 }
