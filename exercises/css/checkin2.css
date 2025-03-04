@@ -6,6 +6,10 @@ body {
   padding: 22px;
 }
 
+figcaption {
+  text-align: center;
+}
+
 h1,h2,h3 {
   font-family: "Press Start 2P", Arial, sans-serif;
   font-weight: 400;
