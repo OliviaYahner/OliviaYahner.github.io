@@ -1,3 +1,10 @@
+header {
+  background-color: #8C2431;
+  color: white;
+  padding: 2rem;
+  margin: 1rem;
+}
+
 body {
   background-color: #8c24300e;
   color: #333333;
