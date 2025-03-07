@@ -1,20 +1,23 @@
 body {
   margin: 0;
   background-color: #f0f0f0;
-  font-family: 'Open Sans', sans-serif;
-}
+  background-image: linear-gradient(#f0f0f0, #8c243071);
+  font-family: "Commissioner", Verdana, 'Open Sans',  sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "FLAR" 0,
+    "VOLM" 0;
+  }
 
 header {
   background-color: #8C2431;
   color: white;
   padding: 2rem;
   margin: 1rem;
-}
-
-
-header nav {
   text-align: right;
-  
 }
 
 header a:link,
@@ -24,21 +27,24 @@ header a:visited {
 }
 
 header a:hover {
+  color: #fd76b5;
   text-decoration: underline;
 }
 
 header a:active {
+  color: #8ceef5;
   text-decoration: overline;
 }
 
 main {
-  border: 3px solid red;
+  border: 0px solid red;
   margin: 1rem 0;
 }
 
 article {
   background-color: white;
   border: 1px solid #ccc;
+  filter: drop-shadow(.3rem .3rem .2rem #c7c7c7);
   padding: 1.3rem;
   margin: 0.5rem;
   margin-bottom: 1.5rem;
@@ -47,7 +53,8 @@ article {
 
 h1 {
   text-align: center;
-  margin: 1rem 0;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 footer {
@@ -58,11 +65,11 @@ footer {
 }
 
 a:link {
-  color: blue;
+  color: #4373b3;
 }
 
 a:visited {
-  color: purple;
+  color: #7232a7;
 }
 
 a:hover {
@@ -74,21 +81,18 @@ a:active {
 }
 
 h2.logo {
-  background-color: #3498db;  
+  background-color: #000000;
+  display: grid;
   text-align: center;
   width: 6rem;
   height: 6rem;
-  line-height: 6rem; 
-  border-radius: 50%;  
+  line-height: 6rem;
+  border-radius: 50%;
   margin: 0;
 }
 
 .wrapper {
+  border: 0px black solid;
   max-width: 40rem;
-  margin: auto;
-  border: 0;  
-}
-
-main {
-  border-width: 0;
+  margin: 0 auto;
 }

@@ -14,7 +14,7 @@ header {
 
 header nav {
   text-align: right;
-  
+
 }
 
 header a:link,
@@ -74,19 +74,19 @@ a:active {
 }
 
 h2.logo {
-  background-color: #3498db;  
+  background-color: #3498db;
   text-align: center;
   width: 6rem;
   height: 6rem;
-  line-height: 6rem; 
-  border-radius: 50%;  
+  line-height: 6rem;
+  border-radius: 50%;
   margin: 0;
 }
 
 .wrapper {
   max-width: 40rem;
   margin: auto;
-  border: 0;  
+  border: 0;
 }
 
 main {
