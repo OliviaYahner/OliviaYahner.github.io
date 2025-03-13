@@ -204,7 +204,7 @@ h1
 {
 	font-weight: bold;
 	font-size: 24.0pt;
-	color: #076685;
+	color: #8c2431;
 }
 
 h2
@@ -277,7 +277,7 @@ div.home-tiles > div
 	float: left;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	background-color: #CDE0E7;
+	background-color: #e9e0e1;
 	padding: 2%;
 	color: #000000;
 }
@@ -441,17 +441,17 @@ MadCap|breadcrumbsProxy
 
 a
 {
-	color: #076685;
+	color: #8c2431;
 }
 
 a:link
 {
-	color: #076685;
+	color: #8c2431;
 }
 
 a:visited
 {
-	color: #076685;
+	color: #8c2431;
 }
 
 MadCap|dropDown
@@ -491,7 +491,7 @@ MadCap|expandingHead
 	font-weight: normal;
 	cursor: hand;
 	text-decoration: none;
-	color: #076685;
+	color: #8c2431;
 }
 
 MadCap|xref
@@ -499,7 +499,7 @@ MadCap|xref
 	font-weight: bold;
 	mc-format: '{para}';
 	text-decoration: underline;
-	color: #076685;
+	color: #8c2431;
 }
 
 /* Lists */
@@ -545,7 +545,7 @@ p.frame-footer-text
 
 .page-layout-front-header
 {
-	background-color: #076685;
+	background-color: #8c2431;
 	height: 155px;
 	width: 825px;
 }
@@ -555,14 +555,14 @@ p.frame-footer-text
 	height: 90px;
 	width: 724px;
 	background-color: transparent;
-	background-image: url('../Images/Logo.svg');
+	background-image: url('../Images/common/Logo-v2.png');
 	background-repeat: no-repeat;
 	background-size: auto 100%;
 }
 
 .page-layout-front-main
 {
-	background-color: #CDE0E7;
+	background-color: #e9e0e1;
 	height: 650px;
 	margin: 0px;
 }
@@ -581,13 +581,13 @@ p.frame-footer-text
 
 div.home-footer
 {
-	background-color: #076685;
+	background-color: #8c2431;
 	padding: 2% 5%;
 }
 
 .home-footer-logo
 {
-	background-image: url('../Images/Logo.png');
+	background-image: url('../Images/common/Logo-v2.png');
 	background-repeat: no-repeat;
 	background-position: right center;
 	width: 400px;
@@ -789,5 +789,18 @@ p.footer-sub
 		mc-format: '{quote}{para}{quote} {pageref}';
 		text-decoration: none;
 	}
+}
+
+p.image-caption
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 20pt;
+	letter-spacing: 0.25px;
+	widows: 3;
+	orphans: 3;
+	text-align: center;
+	font-style: italic;
+	font-size: 8pt;
 }
 

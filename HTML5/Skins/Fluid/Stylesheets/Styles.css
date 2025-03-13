@@ -281,7 +281,7 @@ nav.title-bar
 	display: block;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	background-color: #076685;
+	background-color: #8c2431;
 }
 
 nav.title-bar .menu-icon
@@ -336,11 +336,11 @@ nav.title-bar .menu-icon
 	margin: 0;
 	z-index: 1;
 	display: block;
-	width: 229px;
+	width: 129px;
 	height: 55px;
 	align-self: center;
-	background: transparent url('Images/Logo.png') no-repeat center center;
-	-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/Logo.png') no-repeat center center;
+	background: transparent url('Images/Logo-v2.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/Logo-v2.png') no-repeat center center;
 }
 
 .title-bar-container
@@ -1012,8 +1012,8 @@ div.central-dropdown-content > a:hover
 
 .off-canvas-wrapper-inner .outer-row
 {
-	max-width: 100%;
 	padding-left: 0em;
+	max-width: 100%;
 	padding-right: 0em;
 }
 
@@ -1840,7 +1840,7 @@ h1#results-heading
 
 .featured-snippets-container .micro-response-title a
 {
-	color: #076685;
+	color: #8c2431;
 	text-decoration: underline;
 }
 
@@ -1852,27 +1852,27 @@ h1#results-heading
 
 .featured-snippets-container .micro-response-title a:visited
 {
-	color: #076685;
+	color: #8c2431;
 }
 
 .featured-snippets-container .micro-response-title a:focus
 {
-	color: #076685;
+	color: #8c2431;
 }
 
 .featured-snippets-container .micro-response-title a:hover
 {
-	color: #076685;
+	color: #8c2431;
 }
 
 .featured-snippets-container .micro-response-title a:active
 {
-	color: #076685;
+	color: #8c2431;
 }
 
 .featured-snippets-container .micro-response-url cite
 {
-	color: #076685;
+	color: #8c2431;
 	font-size: 0.9em;
 	font-style: normal;
 }
@@ -1894,7 +1894,7 @@ h1#results-heading
 	border-right: solid 1px #FFFFFF;
 	border-top: solid 1px #FFFFFF;
 	border-bottom: solid 1px #FFFFFF;
-	color: #076685;
+	color: #8c2431;
 	font-size: 1em;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -1930,7 +1930,7 @@ h1#results-heading
 
 #resultList h3.title a
 {
-	color: #076685;
+	color: #8c2431;
 	font-size: 1em;
 }
 
@@ -1942,13 +1942,13 @@ h1#results-heading
 
 #resultList h3.title a:visited
 {
-	color: #076685;
+	color: #8c2431;
 	text-decoration: underline;
 }
 
 #resultList h3.title a:focus
 {
-	color: #076685;
+	color: #8c2431;
 	text-decoration: underline;
 }
 
@@ -1959,13 +1959,13 @@ h1#results-heading
 
 #resultList h3.title a:active
 {
-	color: #076685;
+	color: #8c2431;
 	text-decoration: underline;
 }
 
 #resultList .url cite
 {
-	color: #076685;
+	color: #8c2431;
 	font-size: 0.8em;
 	font-style: normal;
 }
@@ -1997,7 +1997,7 @@ h1#results-heading
 
 .phrase-suggest a
 {
-	color: #076685;
+	color: #8c2431;
 }
 
 .sidenav-container ul ul

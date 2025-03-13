@@ -58,7 +58,7 @@
 		background-repeat: no-repeat;
 		padding-top: 15px;
 		padding-bottom: 15px;
-		background-color: #076685;
+		background-color: #8c2431;
 	}
 
 	/* Topbar Menu Styles */
@@ -85,10 +85,10 @@
 	{
 		top: 0;
 		margin: 0;
-		width: 229px;
+		width: 129px;
 		height: 55px;
-		background: transparent url('Images/Logo.png') no-repeat center center;
-		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/Logo.png') no-repeat center center;
+		background: transparent url('Images/Logo-v2.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/Logo-v2.png') no-repeat center center;
 	}
 
 	.title-bar .menu-icon span

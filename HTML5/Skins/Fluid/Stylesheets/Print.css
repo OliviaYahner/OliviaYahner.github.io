@@ -23,7 +23,7 @@
 	{
 		display: none;
 		background-repeat: no-repeat;
-		background-color: #076685;
+		background-color: #8c2431;
 	}
 
 	/* Side Navigation Menu styles */
@@ -410,8 +410,8 @@
 
 	.title-bar-layout a.logo
 	{
-		background: transparent url('Images/Logo.png') no-repeat center center;
-		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/Logo.png') no-repeat center center;
+		background: transparent url('Images/Logo-v2.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/Logo-v2.png') no-repeat center center;
 	}
 
 	.main-section > .outer-row
