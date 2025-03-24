@@ -1,9 +1,8 @@
 .wrapper {
-  border: 2px solid black;
+  border: 1px solid black;
   display: grid;
   grid-template-rows: 150px 400px 100px;
-  grid-template-columns: 2fr 5fr 2fr;
-  min-height: 100vh;
+  grid-template-columns: 2fr 500px 2fr;
 }
 
 header {
@@ -11,15 +10,16 @@ header {
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 4; 
 }
 
 .emptyspaceleft {
-  background-color:blanchedalmond;  
+  background-color:blanchedalmond;    
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-end: 2; 
+ 
 }
 
 main {
@@ -27,7 +27,7 @@ main {
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-end: 3; 
 }
 
 .emptyspaceright {
@@ -35,13 +35,15 @@ main {
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-end: 4; 
 }
 
 footer {
   background-color:lightgray;  
+  
   grid-row-start: 3;
   grid-row-end: 4;
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 4; 
+ 
 }
