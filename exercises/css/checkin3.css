@@ -63,7 +63,6 @@ heading {
 }
 
 .row2-right {
-  background-image: url("../../images/greenhouse.jpeg");
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 3;
@@ -81,7 +80,6 @@ heading {
 
 .row3-center {
   background-color: rgb(31, 6, 121);
-  background-image: url("../../images/waterfall.jpeg");
   grid-row-start: 3;
   grid-row-end: 4;
   grid-column-start: 2;
