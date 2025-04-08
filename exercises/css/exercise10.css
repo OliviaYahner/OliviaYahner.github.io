@@ -1,7 +1,18 @@
+html,
+body,
+.wrapper {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
 }
 
 main {
@@ -9,23 +20,23 @@ main {
 }
 
 a:link {
-  color: black;
-  text-decoration:underline;
+  color: rgb(4, 120, 143);
+  text-decoration: underline;
 }
 
 a:visited {
   color: black;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 a:hover {
   color: blue;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 a:active {
   color: #ff0000;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 h2 {
@@ -75,7 +86,7 @@ h1 {
 }
 
 footer {
-  background-color: #333;
+  background-color: black;
   color: white;
   text-align: center;
   padding: 1rem;
@@ -83,22 +94,21 @@ footer {
 
 address a:link {
   color: white;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 address a:visited {
   color: white;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 address a:hover {
-  color: cyan;
-  text-decoration:underline;
+  color: palegoldenrod;
+  text-decoration: underline;
 }
 
 address a:active {
   color: red;
-  text-decoration:underline;
+  text-decoration: underline;
 }
-
 

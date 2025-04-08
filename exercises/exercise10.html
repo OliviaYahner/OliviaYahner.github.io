@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Olivia Yahner – Exercise 10: CSS Navbar</title>
-  <link href="css/exercise10.css" rel="stylesheet"/>
-</head>
-<body>
-  <header>
-    <h2>Olivia Yahner</h2>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Resume</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  <main>
-    <h1>Welcome to My Portfolio Page</h1>
-    <p>
-      I am an English major with a concentration in creative writing minoring in biology at <a href="https://www.umass.edu/">the University of Massachusetts, Amherst</a>.
-    </p>
-    <p>
-      Below is a list of technical writing/coding skills I learned from <a href="https://www.umass.edu/pwtc/">UMass Amhert's PWTC program.</a>
-    </p>
-    <ul>
-      <li>Practice in technical writing, editing, and software documentation</li>
-      <li>Hands-on training in a range of industry-standard software</li>
-      <li>Introduction to theories and practices of information design</li>
-    </ul>
-  </main>
-  
-  <footer>
-    <address>Contact <a href="mailto:olivia.yahner@gmail.com">olivia.yahner@gmail.com</a></address>
-  </footer>
-  <p>we need to remove this space</p>
-</body>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olivia Yahner – Exercise 10: CSS Navbar</title>
+    <link href="css/exercise10.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <h2>Olivia Yahner</h2>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <h1>Welcome to My Portfolio Page</h1>
+        <p>
+          I am an English major with a concentration in creative writing minoring in biology at <a
+            href="https://www.umass.edu/">the University of Massachusetts, Amherst</a>.
+        </p>
+        <p>
+          Below is a list of technical writing/coding skills I learned from <a href="https://www.umass.edu/pwtc/">UMass
+            Amhert's PWTC program.</a>
+        </p>
+        <ul>
+          <li>Technical writing, editing, and software documentation skills</li>
+          <li>Learned a range of industry-standard software: Illustrator, MadCap Flare, Microsoft Word</li>
+          <li>How to make a webpage portfolio and an accessibility website</li>
+        </ul>
+        <p>
+          Note: The "sticky footer" of this page is accomplished by nesting the page in a CSS "wrapper" div with
+          "display: grid"
+          set as and setting the html, body, and .wrapper selectors to "height: 100%"
+        </p>
+      </main>
+
+      <footer>
+        <address>Contact <a href="mailto:olivia.yahner@gmail.com">olivia.yahner@gmail.com</a></address>
+      </footer>
+    </div>
+  </body>
+
 </html>
