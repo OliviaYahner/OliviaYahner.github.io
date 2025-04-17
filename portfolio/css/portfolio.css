@@ -66,6 +66,11 @@ ul {
   margin-left: 2rem;
 }
 
+li {
+  margin-bottom: 0.5em;
+  
+}
+
 header, footer {
   color: #ffffff;
   background-color: #8C2431;
