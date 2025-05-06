@@ -110,20 +110,13 @@ ul li a {
 .content img {
   width: 300px;
   float: right;
-  padding-left: 10px;
-  padding-bottom: 5px;
   object-fit: cover;
   border-radius: 50%;
+  padding: 5px;
+  background: linear-gradient(to bottom right, #8C2431, #333333); /* gradient ring */
+  display: inline-block;
+  box-shadow: 0 0 10px #33333399;
 }
-/* 
-.circle-img {
-  width: 600px;
-  height: 562px;
-  overflow: hidden;
-  display: block;  
-  object-fit: cover;
-  border-radius: 50%;
-} */
 
 
 hr {
