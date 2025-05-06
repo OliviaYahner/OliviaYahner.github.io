@@ -103,6 +103,10 @@ nav ul li a {
   font-weight: bold;
 }
 
+ul li a {
+  color: #333333;
+}
+
 .content img {
   width: 300px;
   float: right;
