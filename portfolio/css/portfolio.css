@@ -114,7 +114,6 @@ ul li a {
   border-radius: 50%;
   padding: 5px;
   background: linear-gradient(to bottom right, #8C2431, #333333); /* gradient ring */
-  display: inline-block;
   box-shadow: 0 0 10px #33333399;
 }
 
