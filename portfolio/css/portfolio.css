@@ -112,7 +112,19 @@ ul li a {
   float: right;
   padding-left: 10px;
   padding-bottom: 5px;
+  object-fit: cover;
+  border-radius: 50%;
 }
+/* 
+.circle-img {
+  width: 600px;
+  height: 562px;
+  overflow: hidden;
+  display: block;  
+  object-fit: cover;
+  border-radius: 50%;
+} */
+
 
 hr {
   width: 80%;
