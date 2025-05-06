@@ -1,20 +1,41 @@
+/* 
+  display: grid looks much cleaner and easier to manage with  
+  margins and padding defaulted to 0px 
+*/
 * {
   margin: 0px;
   padding: 0px;
 }
+
+/* 
+  The height: 100% setting on these selectors ensures the footer is 
+  always going to be at the bottom of the page
+*/
 html,
 body,
 .grid-container {
   height: 100%;
 }
 
+/*
+  the grid-item layout contains 5 total items:
+  
+  |---------|
+  |    1    | Heading/Title
+  |---------|
+  |    2    | Navigation
+  |-----|---|
+  |  3  | 4 | Body | Sidebar
+  |-----|---|
+  |    5    | Footer
+  |---------|
+*/
 .grid-item-1,
 .grid-item-2,
 .content {
   padding: 20px
 }
 
-/* grid layout first - way easier */
 .grid-container {
   display: grid;
   grid-template-columns: 4fr 300px;
@@ -52,6 +73,9 @@ body,
 
 }
 
+/*
+  Basic default styles and formatting
+*/
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #8c24300e;
@@ -83,7 +107,9 @@ h2 {
   border-bottom: initial;
 }
 
-/* grid row 2 */
+/*
+  Nav bar specific formatting includes list item (li) and anchor (a) custom selector settings
+*/
 nav {
   background-color: #333;
 }
@@ -107,16 +133,36 @@ ul li a {
   color: #333333;
 }
 
-.content img {
-  width: 300px;
+/*
+  A circle-logo is an image which is
+  * clipped to a circle
+  * VERY subtle gradient outline and shadowing
+  * includes a caption with an image credit
+  * formatted inline with surrounding text
+*/
+.circle-logo {
   float: right;
+  width: 300px;
+  margin: 0 0 1em 1em;
+  text-align: center;
+}
+
+.circle-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
   object-fit: cover;
   border-radius: 50%;
   padding: 5px;
-  background: linear-gradient(to bottom right, #8C2431, #333333); /* gradient ring */
+  background: linear-gradient(to bottom right, #8C2431, #333333);
   box-shadow: 0 0 10px #33333399;
 }
 
+.circle-logo figcaption {
+  margin-top: 0.5em;
+  font-size: 0.9em;
+  color: #555;
+}
 
 hr {
   width: 80%;
