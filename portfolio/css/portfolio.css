@@ -135,6 +135,16 @@ nav ul li a {
   font-weight: bold;
 }
 
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: rgb(241, 199, 91);
+}
+
 ul li a {
   color: #333333;
 }
