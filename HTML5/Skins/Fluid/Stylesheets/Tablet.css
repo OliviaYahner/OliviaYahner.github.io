@@ -297,7 +297,7 @@
 
 	.central-separator
 	{
-		background-color: #DADEE1;
+		background-color: #e7eaec;
 	}
 
 	.featured-snippets-container
@@ -973,17 +973,17 @@
 
 	.search-auto-complete li.auto-result-item.auto-result-selected
 	{
-		background-color: #DADEE1;
+		background-color: #e7eaec;
 	}
 
 	.search-auto-complete li.auto-result-content.auto-result-selected
 	{
-		background-color: #DADEE1;
+		background-color: #e7eaec;
 	}
 
 	.search-auto-complete li.auto-result-history.auto-result-selected
 	{
-		background-color: #DADEE1;
+		background-color: #e7eaec;
 	}
 
 	.search-auto-complete li.auto-result-item .auto-result-description

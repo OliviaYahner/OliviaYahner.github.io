@@ -668,11 +668,11 @@ html.pulseTopic .main-section .row.outer-row
 	-moz-box-shadow: 0px 1px 4px 0px #cccccc;
 	line-height: 35px;
 	text-align: center;
-	-webkit-box-shadow: 0px 1px 4px #DADEE1;
-	-moz-box-shadow: 0px 1px 4px #DADEE1;
-	box-shadow: 0px 1px 4px #DADEE1;
-	-webkit-box-shadow: 0px 1px 4px #DADEE1;
-	-moz-box-shadow: 0px 1px 4px #DADEE1;
+	-webkit-box-shadow: 0px 1px 4px #e7eaec;
+	-moz-box-shadow: 0px 1px 4px #e7eaec;
+	box-shadow: 0px 1px 4px #e7eaec;
+	-webkit-box-shadow: 0px 1px 4px #e7eaec;
+	-moz-box-shadow: 0px 1px 4px #e7eaec;
 	width: 100px;
 	height: auto;
 	left: auto;
@@ -724,7 +724,7 @@ div.central-dropdown-content > a:hover
 
 .central-account-text
 {
-	color: #DADEE1;
+	color: #e7eaec;
 	font-size: 14px;
 	text-decoration: none;
 }
@@ -739,7 +739,7 @@ div.central-dropdown-content > a:hover
 	width: 0;
 	height: 0;
 	display: inline-flex;
-	border-top-color: #DADEE1;
+	border-top-color: #e7eaec;
 }
 
 .central-separator
@@ -751,8 +751,8 @@ div.central-dropdown-content > a:hover
 	margin-top: 0px;
 	margin-bottom: 0px;
 	height: 1px;
-	color: #DADEE1;
-	background-color: #DADEE1;
+	color: #e7eaec;
+	background-color: #e7eaec;
 }
 
 .central-logout-link
@@ -770,11 +770,11 @@ div.central-dropdown-content > a:hover
 	padding-top: 15px;
 	padding-bottom: 15px;
 	background-position: center center;
-	-webkit-box-shadow: 0px 1px 4px #DADEE1;
-	-moz-box-shadow: 0px 1px 4px #DADEE1;
-	box-shadow: 0px 1px 4px #DADEE1;
-	-webkit-box-shadow: 0px 1px 4px #DADEE1;
-	-moz-box-shadow: 0px 1px 4px #DADEE1;
+	-webkit-box-shadow: 0px 1px 4px #e7eaec;
+	-moz-box-shadow: 0px 1px 4px #e7eaec;
+	box-shadow: 0px 1px 4px #e7eaec;
+	-webkit-box-shadow: 0px 1px 4px #e7eaec;
+	-moz-box-shadow: 0px 1px 4px #e7eaec;
 }
 
 .featured-snippets-container .micro-content-expanded .micro-content-drop-down-button
@@ -1582,17 +1582,17 @@ div.central-dropdown-content > a:hover
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
-	background-color: #DADEE1;
+	background-color: #e7eaec;
 }
 
 .search-auto-complete li.auto-result-content.auto-result-selected
 {
-	background-color: #DADEE1;
+	background-color: #e7eaec;
 }
 
 .search-auto-complete li.auto-result-history.auto-result-selected
 {
-	background-color: #DADEE1;
+	background-color: #e7eaec;
 }
 
 .search-auto-complete li.auto-result-item .auto-result-description
@@ -1761,7 +1761,7 @@ h1#results-heading
 
 #results-heading
 {
-	border-bottom: solid 1px #DADEE1;
+	border-bottom: solid 1px #e7eaec;
 	margin-bottom: 20px;
 	padding-bottom: 10px;
 }
@@ -1909,13 +1909,13 @@ h1#results-heading
 
 #pagination a:hover
 {
-	border-top: solid 1px #DADEE1;
+	border-top: solid 1px #e7eaec;
 }
 
 #pagination a#selected
 {
 	font-weight: bold;
-	border-top: solid 1px #DADEE1;
+	border-top: solid 1px #e7eaec;
 }
 
 #resultList .description
