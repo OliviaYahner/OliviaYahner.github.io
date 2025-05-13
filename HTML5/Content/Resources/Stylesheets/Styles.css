@@ -5,7 +5,7 @@
 body
 {
 	color: #45494C;
-	font-family: Arial, Avenir, Myriad;
+	font-family: Arial, Tahoma, Helvetica;
 }
 
 .body-container
@@ -802,5 +802,11 @@ p.image-caption
 	text-align: center;
 	font-style: italic;
 	font-size: 8pt;
+}
+
+p.works-cited
+{
+	font-weight: bold;
+	font-size: 14pt;
 }
 
