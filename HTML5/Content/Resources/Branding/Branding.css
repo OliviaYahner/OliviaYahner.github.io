@@ -1,0 +1,19 @@
+/*<meta />*/
+
+/* MadCap-Branding applanguage:Templates/Projects/Tutorials/Austin/ */
+
+:root
+{
+	--Dark: #45494C;
+	--Darkest: #000000;
+	--Lightest: #FFFFFF;
+	--Medium: #A4AAAE;
+	--HeroImage: url('../Images/Hero-Image.png');
+	--FontFamily: Arial, Tahoma, Helvetica;
+	--Primary: #8c2431;
+	--Secondary: #e9e0e1;
+	--LogoImage: url('../Images/common/Logo-v2.png');
+	--LogoImagePrint: url('../Images/common/Logo-v2.png');
+	--Light: #DADEE1;
+}
+

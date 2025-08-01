@@ -1,0 +1,1 @@
+define({numchunks:1,prefix:'Glossary_Chunk',terms:[{t:'Digital Accessibility',c:0},{t:'Dyslexia',c:0},{t:'Hyperlexia',c:0}]});
